@@ -7,13 +7,13 @@ A continuacion se explica como ejecutar los diferentes casos de prueba.
 ## Instalar Dependecias
 
 Se debe ejecutar el siguiente comando en terminal:
-    ```
-    npm i
-    ````
+```
+npm i
+````
 En casos de que resulte un error ejecute el siguiente comando en lugar del anterior:
-    ```
-    npm i --legacy-peer-deep
-    ````
+```
+npm i --legacy-peer-deep
+````
 
 ## Abrir Cypress
 

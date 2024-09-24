@@ -1,0 +1,15 @@
+{
+    "reporterEnabled":"spec,mocha-junit-reporter,mochawesome",
+    "mochaJunitReporterReporterOptions":{
+        "mochaFile":"cypress/test-result/junit-report/chrome-[hash].xml",
+        "toConsole":false,
+        "outputs":true,
+        "testCaseSwitchClassnameAndName":true
+    },
+    "reporterOptions":{
+        "reporterDir":"cypress/test-result/mocha/chrome",
+        "overwrite":false,
+        "html":true,
+        "json":true
+    }
+}

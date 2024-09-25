@@ -9,7 +9,7 @@ module.exports = defineConfig({
   screenshotOnRunFailure:false,
   reporter:'cypress-multi-reporters',
   reporterOptions:{
-    configFile:''
+    configFile:'config-report-chrome.json'
   },
   e2e: {
     specPattern:['cypress/e2e/**/*.cy.{js,jsx,ts,tsx}'],

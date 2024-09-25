@@ -8,6 +8,7 @@
     },
     "reporterOptions":{
         "reporterDir":"cypress/test-result/mocha/edge",
+        "reportFilename":"[status]-[name]-report-edge",
         "overwrite":false,
         "html":true,
         "json":true

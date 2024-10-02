@@ -42,4 +42,4 @@ estos comando se deben ejecutar en la terminal, generaran cada uno tres informes
 
 ## NOTA:
 
-Por el uso de la dependencia "cypress-real-events", se descarta las pruebas en el browser firefox y la ejecucuion de los casos en git actions(no se descarta la subida de artefactos de la carpeta "test-result")
+Por el uso de la dependencia "cypress-real-events", se descarta las pruebas en el browser firefox y la ejecucuion de los casos en git actions

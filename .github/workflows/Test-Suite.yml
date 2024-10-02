@@ -28,14 +28,14 @@ jobs:
               with:
                   browser: chrome
                   command:
-                    npm run report-chrome **/*/<nameTest>
+                    npm run report-chrome **/*/headerNavBarCategory.cy.ts
 
             - name: cypress Run test coverage in edge
               uses: cypress-io/github-action@v4
               with:
                   browser: edge
                   command:
-                    npm run report-edge **/*/<nameTest>
+                    npm run report-edge **/*/headerNavBarCategory.cy.ts
 
 
 

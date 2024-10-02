@@ -3,7 +3,7 @@ import { urls } from '@data/headerCategory.json'
  
 
 describe('TS| eBay | Home | seleccionar categoría en la navBar y ser redireccionado a la categoría elegida',()=>{
-    beforeEach('',()=>{
+    beforeEach('Precondiciones',()=>{
         cy.visit('/')
         cy.get('[class="gh-eb-Geo-flag gh-sprRetina"]').then((language)=>{
             let languageS:string|null=language[0].textContent

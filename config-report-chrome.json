@@ -7,7 +7,7 @@
         "testCaseSwitchClassnameAndName":true
     },
     "reporterOptions":{
-        "reporterDir":"cypress/test-result/mocha/chrome",
+        "reportDir":"cypress/test-result/mocha/chrome",
         "reportFilename":"[status]-[name]-report-chrome",
         "overwrite":false,
         "html":true,

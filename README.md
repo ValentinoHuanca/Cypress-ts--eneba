@@ -1,4 +1,4 @@
-# Cypress(ts)-eneba
+# Cypress(ts)-eBay
 Bienvenido este es una muestra de mis conocimientos con el framework Cypress con el uso de TypeScript en lugar de JavaScript.
 A continuacion se explica como ejecutar los diferentes casos de prueba.
 
@@ -38,4 +38,8 @@ Se puede ejecutar en tres navegadores chrome, firefox y edge:
     npm run report-edge **/*/<nameTestSuite>
     ````
 
-estos comando se deben ejecutar en la terminal, generaran cada uno tres informes(uno en html,json y xml) en la misma ruta "cyrpess/test-result" 
+estos comando se deben ejecutar en la terminal, generaran cada uno tres informes(uno en html,json y xml) en la misma ruta "cyrpess/test-result"
+
+## NOTA:
+
+Por el uso de la dependencia "cypress-real-events", se descarta las pruebas en el browser firefox

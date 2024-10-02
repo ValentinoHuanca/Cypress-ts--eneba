@@ -7,7 +7,7 @@
         "testCaseSwitchClassnameAndName":true
     },
     "reporterOptions":{
-        "reporterDir":"cypress/test-result/mocha/firefox",
+        "reportDir":"cypress/test-result/mocha/firefox",
         "reportFilename":"[status]-[name]-report-firefox",
         "overwrite":false,
         "html":true,

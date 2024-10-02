@@ -30,18 +30,6 @@ jobs:
                   command:
                     npm run report-chrome **/*/<nameTest>
 
-
-            
-            - name: cypress Run test coverage in firefox
-              uses: cypress-io/github-action@v4
-              with:
-                  browser: firefox
-                  command:
-                    npm run report-firefox **/*/<nameTest>
-
-
-
-
             - name: cypress Run test coverage in edge
               uses: cypress-io/github-action@v4
               with:
